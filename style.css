@@ -193,11 +193,8 @@ body {
 
 .hero .content {
 	padding: 1.4rem 7%;
-	/* max-width: 60rem; */
-	width: 100%;
-	text-align: center;
-	position: fixed;
-	top: 150px;
+	max-width: 60rem;
+	
 }
 
 .hero .content h1 {
@@ -638,7 +635,7 @@ footer .credit a {
 }
 
 /* Mobile Phone */
-@media (max-width: 767px) {
+@media (max-width: 468px) {
 	html {
 		font-size: 55%;
 	}
